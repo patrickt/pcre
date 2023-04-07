@@ -303,6 +303,8 @@
 
 #elif defined __APPLE__
 
+#include <libkern/OSCacheControl.h>
+
 /* Supported by all macs since Mac OS 10.5.
    However, it does not work on non-jailbroken iOS devices,
    although the compilation is successful. */
